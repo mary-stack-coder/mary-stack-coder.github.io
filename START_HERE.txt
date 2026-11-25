@@ -1,0 +1,8 @@
+MARY SIRJANI — PERSONAL WEBSITE
+
+1. Extract this ZIP file completely.
+2. Open the Mary_Sirjani_Website folder.
+3. Open index.html in your browser.
+4. Keep the assets folder and all HTML pages in their original locations.
+
+The homepage includes an animated technology display showing the programming languages and databases used: Python, C#, PHP, SQL Server, MySQL, and MongoDB.
