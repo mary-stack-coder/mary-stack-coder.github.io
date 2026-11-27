@@ -36,7 +36,10 @@ footer{border-top:1px solid var(--line);padding:25px 0 32px;color:var(--muted);f
 .tech-row b{font-size:.83rem;color:#f1f6fc;letter-spacing:.01em}
 .tech-row span{font-size:.58rem;color:#a9b8ca;text-transform:uppercase;letter-spacing:.08em}
 .tech-wheel-foot{position:relative;z-index:2;display:flex;justify-content:space-between;margin-top:9px;color:#8fa3b9;font-size:.52rem;letter-spacing:.12em;font-weight:750}
-@keyframes tech-scroll{from{transform:translateY(0)}to{transform:translateY(-246px)}}
+@keyframes tech-scroll{from{transform:translateY(0)}to{transform:translateY(-287px)}}
 @keyframes wheel-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @media(max-width:700px){.tech-wheel{width:205px;height:205px;padding:18px 17px 14px}.tech-window{height:105px}.tech-row{height:29px;min-height:29px}.tech-row b{font-size:.75rem}.tech-row span{font-size:.51rem}.tech-wheel-head{font-size:.55rem}.tech-wheel-foot{font-size:.46rem}}
 @media(prefers-reduced-motion:reduce){.tech-track,.tech-wheel{animation:none!important}}
+
+/* Responsive technology tables on project detail pages */
+.table-wrap{width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:13px;margin-top:12px}.table-wrap table{width:100%;border-collapse:collapse;min-width:520px;text-align:left}.table-wrap th,.table-wrap td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}.table-wrap th{color:var(--teal);font-size:.82rem;letter-spacing:.04em;background:#ffffff08}.table-wrap td{color:var(--muted);font-size:.9rem}.table-wrap td:first-child{color:var(--ink);font-weight:700}.table-wrap tr:last-child td{border-bottom:0}
